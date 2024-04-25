@@ -4,8 +4,10 @@ const LandingLayout = ({
     children: React.ReactNode
 }) => {
     return ( 
-        <div className="">
-            {children}
+        <div className="h-full dark:bg-[#]">
+            <div className="h-full pt-40">
+                {children}
+            </div>
         </div>
      );
 }

@@ -6,30 +6,30 @@ export const Heroes = () => {
             <div className="flex items-center">
                 <div className="relative w-[300px] h-[300px] sm:w-[350px] sm:h-[350px] md:h-[400px] md:w-[400px]">
                     <Image    
-                        src="/documents.png"
+                        src="/reflection.png"
                         fill
                         className="object-contain dark:hidden"
-                        alt="Documents"
+                        alt="reflection 1"
                     />
                     <Image    
-                        src="/documents-dark.png"
+                        src="/reflection-dark.png"
                         fill
                         className="object-contain hidden dark:block"
-                        alt="Documents"
+                        alt="reflection 1"
                     />
                 </div>
                 <div className="relative w-[400px] h-[400px] hidden md:block">
                     <Image 
-                        src="/reading.png"
+                        src="/reflection.png"
                         fill
                         className="object-contain dark:hidden"
-                        alt="Reading"
+                        alt="reflection 2"
                     />
                     <Image 
-                        src="/reading-dark.png"
+                        src="/reflection-dark.png"
                         fill
                         className="object-contain hidden dark:block"
-                        alt="Reading"
+                        alt="reflection 2"
                     />
                 </div>
             </div>
